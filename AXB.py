@@ -2,14 +2,10 @@
 
 from os import path
 import os,base64,zlib,pip,urllib
-print('\033[1;36m[AXB] Join My Group')
-os.system('xdg-open https://www.facebook.com/groups/970667860754460/')
-
-os.system('xdg-open m.me/PHYO.WAI.OLD.PAGE.SELLER')
 
 print('\n\033[1;32m install modules...\n It will take some seconds...')
 
-print('\033[1;32m   cheking for update')
+print('\033[1;32m cheking for update')
 
 try:
         import os,requests,json,time,re,random,sys,uuid,string,subprocess
@@ -51,6 +47,14 @@ for agent in range(10000):
         l='Mobile Safari/533.1'
         fullagnt=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
         ugen.append(fullagnt)
+def clear():
+        os.system('clear')        
+print('\033[1;36m[AXB] Join My Group')
+os.system('xdg-open https://www.facebook.com/groups/970667860754460/')
+
+os.system('xdg-open m.me/PHYO.WAI.OLD.PAGE.SELLER')
+
+
 logo=("""\033[1;36m
 \033[1;37m      .o.       ooooooo  ooooo oooooooooo.  
 \033[1;37m     .888.       `8888    d8'  `888'   `Y8b 
@@ -188,7 +192,7 @@ def public():
                         clear()
                         total_ids = str(len(id))
                         print(' Total account : \033[1;33m'+total_ids+f' \033[1;33m>\033[1;36m> \033[1;32mMethod -> \033[1;37mM{mthd}')
-                        print("\033[1;33m \x1b[38;5;208mPlease Wait Cloning started..\033[1;33m")
+                        print("\033[1;33m Please Wait Cloning started..\033[1;33m")
                         linex()
                         for user in id:
                                 ids,names = user.split('|')
@@ -218,7 +222,7 @@ def menu():
         #       chk()
                 x = ("sex")
                 if x == ("sex"):              
-                        print('\033[1;32m [1] File cloing\n [2] Create ids file\n [3] Public cloning\n [4] Random number cloning\n [5] Random gmail\n [0] Exit menu')
+                        print('\033[1;33m [1] File cloing\n [2] Create ids file\n [3] Public cloning\n [4] Random number cloning\n [5] Random gmail\n [0] Exit menu')
                         linex()
                         xd=input('\033[1;37m Choose an option: ')
                         if xd in ['1','01']:
@@ -261,7 +265,7 @@ def menu():
                                         clear()
                                         total_ids = str(len(fo))
                                         print(' Total account : \033[1;32m'+total_ids+f' \033[1;33m>\033[1;36m> \033[1;37mMethod -> \033[1;37mM{mthd}')
-                                        print("\033[1;33m \x1b[38;5;208mPlease Wait Cloning started..\033[1;33m")
+                                        print("\033[1;33m Please Wait Cloning started..\033[1;33m")
                                         linex()
                                         for user in fo:
                                                 ids,names = user.split('|')
@@ -353,7 +357,7 @@ def pak():
                         tl = str(len(user))
                         print(' Total account : \033[1;32m'+tl)
                         print(f'\033[1;37m Choice code ..:\033[1;32m '+code)
-                        print(f'\033[1;33m \x1b[38;5;208mPlease Wait Cloning started..\033[1;33m')
+                        print(f'\033[1;33m Please Wait Cloning started..\033[1;33m')
                         linex()
                         for psx in user:
                                 ids = code+psx
@@ -383,7 +387,7 @@ def bd():
                         tl = str(len(user))
                         print(' Total account : \033[1;32m'+tl)
                         print(f'\033[1;33m Choice code ..:\033[1;32m '+code)
-                        print(f'\033[1;33m \x1b[38;5;208mPlease Wait Cloning started..\033[1;33m')
+                        print(f'\033[1;33m Please Wait Cloning started..\033[1;33m')
                         linex()
                         for psx in user:
                                 ids = code+psx
@@ -431,7 +435,7 @@ def gmail():
                         total = str(len(fo))
                         clear()
                         print(' Total account : \033[1;32m'+total)
-                        print("\033[1;33m \x1b[38;5;208mPlease Wait Cloning started..\033[1;33m")
+                        print("\033[1;33m Please Wait Cloning started..\033[1;33m")
                         linex()
                         for user in fo:
                                 ids,names = user.split('|')
